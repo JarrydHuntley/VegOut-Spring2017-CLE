@@ -16,8 +16,10 @@ $(document).ready(function () {
         });
 
         if (!$("list-group").text().includes(searchTerm)) {
+
             $("#dialogText").text("Please enter a recipe");
-           $("#dialog").dialog('open');
+            $("#dialog").dialog('open');
+
         }
     });
 
